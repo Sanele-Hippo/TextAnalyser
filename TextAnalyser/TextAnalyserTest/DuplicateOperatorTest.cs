@@ -22,7 +22,7 @@ namespace TextAnalyserTest
     [TestCase("ApPles", "Found the following duplicates: p")]
     [TestCase("like", "No duplicate values were found")]
     [TestCase("", "No duplicate values were found")]
-    public void Test_Duplicate_Should_Return_Success(string input, string result)
+    public void Test_DuplicateOperator_Should_Return_Success(string input, string result)
     {
       //Arrange
       var op = OperatorFactory.Create(_duplicateOperatorId);

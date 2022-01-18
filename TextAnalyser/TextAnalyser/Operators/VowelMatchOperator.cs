@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TextAnalyser.Operators
 {
-  public class VowelMatchOperator : IOperator
+  public class VowelMatchOperator : VowelBase, IOperator
   {
     public string ExecuteOperation(string input)
     {

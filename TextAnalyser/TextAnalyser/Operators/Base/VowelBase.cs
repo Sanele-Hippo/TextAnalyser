@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TextAnalyser.Extensions;
 
 namespace TextAnalyser.Operators
 {
@@ -12,7 +13,13 @@ namespace TextAnalyser.Operators
 
     public virtual int GetVowelCount(string input)
     {
-      return 0;
+      int count = 0;
+      foreach(var vowel in _vowelChars)
+      {
+        if (input.Clean().Contains(vowel))
+          count++;
+      }
+      return count;
     }
   }
 }

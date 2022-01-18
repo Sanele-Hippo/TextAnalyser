@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace TextAnalyser.Operators
 {
-  public class VowelCountOperator : IOperator
+  public class VowelCountOperator : VowelBase, IOperator
   {
     public string ExecuteOperation(string input)
     {
-      throw new NotImplementedException();
+      var vowelCount = base.GetVowelCount(input);
+      return vowelCount == 0 ? "No vowels were found" : $"The number of vowels is {vowelCount}";
     }
   }
 }
