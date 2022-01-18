@@ -8,7 +8,7 @@ namespace TextAnalyser.Operators
 {
   public abstract class VowelBase
   {
-    private readonly string[] vowelChars = new[] { "a", "e", "i", "o", "u" };
+    private readonly string[] _vowelChars = new[] { "a", "e", "i", "o", "u" };
 
     public virtual int GetVowelCount(string input)
     {
