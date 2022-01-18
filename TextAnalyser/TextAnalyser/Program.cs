@@ -12,7 +12,13 @@ namespace TextAnalyser
       Console.WriteLine("Enter which operator to do on the supplied text");
       var operations = Console.ReadLine();
 
-      Console.WriteLine(text + operations);
+      foreach(var operation in operations)
+      {
+        var op = OperatorFactory.Create(Convert.ToInt16(operation.ToString()));
+        Console.WriteLine(op.ExecuteOperation(text));
+      }
+
+      Console.ReadLine();
     }
   }
 }
