@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyser", "TextAnalyser\TextAnalyser.csproj", "{97DA4DE0-4A6D-4657-AF7F-28258DFD0729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAnalyser", "TextAnalyser\TextAnalyser.csproj", "{97DA4DE0-4A6D-4657-AF7F-28258DFD0729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyserTest", "TextAnalyserTest\TextAnalyserTest.csproj", "{9E8BEE3B-A03E-4850-BD9A-F763FE0C8877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAnalyserTest", "TextAnalyserTest\TextAnalyserTest.csproj", "{9E8BEE3B-A03E-4850-BD9A-F763FE0C8877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyserCompositionAndInheritance", "TextAnalyserCompositionAndInheritence\TextAnalyserCompositionAndInheritance.csproj", "{4AF5384F-DE35-4EB6-B430-FC39AD7A108B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9E8BEE3B-A03E-4850-BD9A-F763FE0C8877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8BEE3B-A03E-4850-BD9A-F763FE0C8877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E8BEE3B-A03E-4850-BD9A-F763FE0C8877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF5384F-DE35-4EB6-B430-FC39AD7A108B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF5384F-DE35-4EB6-B430-FC39AD7A108B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF5384F-DE35-4EB6-B430-FC39AD7A108B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF5384F-DE35-4EB6-B430-FC39AD7A108B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

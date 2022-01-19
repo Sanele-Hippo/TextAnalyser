@@ -14,8 +14,8 @@ namespace TextAnalyser
       return operatorId switch
       {
         1 => new DuplicateOperator(),
-        2 => new VowelCountOperator(),
-        3 => new VowelMatchOperator(),
+        2 => new CountOperator(),
+        3 => new MatchOperator(),
         _ => throw new NotImplementedException($"Operator id {operatorId} has not been implimented yet.")
       };
     }
